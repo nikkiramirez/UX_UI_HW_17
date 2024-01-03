@@ -1,24 +1,28 @@
 
 body{
-    background-image: linear-gradient( navy, aqua);
+    background-image: linear-gradient( rgb(255, 255, 255), rgb(255, 0, 238));
     font-family: sans-serif;
-
 }
 
 header{
-background-color: white;
-    align-items: flex-start;
-    color:black;
+    justify-content:center;
+    display: flex;
+    align-content: space-between;
+    background-color: white;
     height: 100px;
-    justify-content:flex-start;
     font-size: medium;
 }   
-
+section{
+    justify-content: center;
+    justify-items: center;
+    align-content:center;
+}
     
 img{
     display: block;
     padding: 10px 20px;
     text-align: center;
+    justify-content: center;
 }
 h1{
     color:black;
@@ -33,16 +37,14 @@ p{
 ul{
     display:inline-flex;
     color:white;
-    background-color:black;
     height:50px;
     margin:0;
     padding: 0;
     list-style-type: none;
   }
-.wrapper {
-    display: inline-flex;
-    justify-content: space-between;
-    align-items: flex-start;
+nav{
+    justify-content: center;
+    align-items: center;
     margin: 1rem 0;
     padding: 1rem 0;
     min-width: 80vw;
